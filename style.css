@@ -66,11 +66,11 @@ body {
     margin-bottom: 150px;
 }
 
-.fwd {
+#fwd {
     border-left: 10px solid tomato;
 }
 
-.bwd {
+#bwd {
     border-left: 10px solid rgb(0, 26, 255);
 }
 
@@ -90,4 +90,8 @@ h1 {
 
 h2 {
     font-size: 40px;
+}
+
+footer p {
+    text-align: center;
 }
