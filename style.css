@@ -14,17 +14,31 @@ h1 {
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
-
-#col1 {}
 
 .half-width #my-pic {
     width: 100%;
 }
 
+
+.dream-big {
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+#para-2 {
+    padding-right: 150px;
+
+}
+
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 
 .link-button {
@@ -33,6 +47,7 @@ h1 {
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
+    font-weight: bold;
 
 }
 
