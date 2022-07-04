@@ -11,10 +11,10 @@ h1 {
 }
 
 #sec1 {
-    display: flex;
+
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 150px;
+
 }
 
 .half-width #my-pic {
@@ -23,11 +23,11 @@ h1 {
 
 
 .dream-big {
-    display: flex;
-    margin-bottom: 150px;
+
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
 
 }
 
@@ -53,4 +53,41 @@ h1 {
 
 body {
     margin: 0px;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.fwd {
+    border-left: 10px solid tomato;
+}
+
+.bwd {
+    border-left: 10px solid rgb(0, 26, 255);
+}
+
+.box {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 10px grey;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 6%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
